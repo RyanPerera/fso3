@@ -76,7 +76,7 @@ app.post('/api/persons', (request, response) => {
         let entry = {
             id: num,
             name: body.name,
-            number: body.name
+            number: body.number
         }
         persons.push(entry)
         response.json(entry)
